@@ -1,4 +1,4 @@
 # AML Final Project
 
-**Kaggle link**: https://www.kaggle.com/competitions/benchmark-tabular-ml
+**Kaggle link**: <a href="https://www.kaggle.com/competitions/benchmark-tabular-ml" target="_blank>https://www.kaggle.com/competitions/benchmark-tabular-ml </a>
 
