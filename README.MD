@@ -10,6 +10,8 @@ Authors: Kyra Dresen, Antara Chakrabarty, Martin Arnold
 - [Repository structure](#repository-structure)
 - [Problem statement](#problem-statement)
 - [Data](#data)
+- [Our contribution](#our-contribution)
+- [References](#references)
 
 ## Repository structure
 
@@ -21,7 +23,7 @@ Authors: Kyra Dresen, Antara Chakrabarty, Martin Arnold
 
 All scripts are Jupyter Notebooks, preferrably run in Goolge Colab.
 
-## Problem statement 
+## Problem statement
 
 From the <a href="https://www.kaggle.com/competitions/benchmark-tabular-ml" target="_blank">Kaggle Competition</a>
 
@@ -70,3 +72,35 @@ can be used to train a machine learning model to predict whether the homeowner q
 #### HIGGS Dataset
 This is a classification problem to distinguish between a signal process which produces Higgs bosons and a background 
 process which does not.
+
+
+## Our contribution
+
+From our perspective, tabular tabular data (irrespective of what kind of data) usually shows certain characteristics:
+
+- tables have different dimensions
+- a mixture of data types (numeric and categorical data)
+- unbalancedness
+- (non-linear) dependencies between features
+- relatively small training samples
+
+These characteristics usually makes it hard for deep learning approaches to outperform (or match) "classical" approaches,
+i.e. specifically tree-based models. Recently, newer approaches use pre-trained models (on table data) to improve performance, 
+however, in 2023 these approaches usually come with restrictions on test set size. 
+
+In our project, we compared two classical approaches:
+
+- (Multinomial) Logistic Regression
+- Random Forest classifier
+
+With two deep learning approaches:
+
+- a standard MLP classifier 
+- Ensemble TabPNF
+
+TabPNF is a pre-trained model on tabular data but could only predict 1024 rows. By creating our own Ensemble TabPNF, we 
+could substantially improve performance and come close to the RandomForest classifier.
+
+## References
+
+<a href="https://arxiv.org/abs/2207.01848">Tab PFN</a>
