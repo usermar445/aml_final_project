@@ -8,7 +8,7 @@ Authors: Kyra Dresen, Antara Chakrabarty, Martin Arnold
 ## Table of contents
 
 - [Repository structure](#repository-structure)
-- [Problem statement](#problem-statement-from-the-a-hrefhttpswwwkagglecomcompetitionsbenchmark-tabular-ml-target_blankkaggle-competitiona)
+- [Problem statement](#problem-statement-)
 - [Data](#data)
 
 ## Repository structure
@@ -19,7 +19,8 @@ Authors: Kyra Dresen, Antara Chakrabarty, Martin Arnold
 - `./scripts` contains the scripts used to get the predictions
 - `./misc` contains the poster and other stuff for the repository
 
-## Problem statement (from the <a href="https://www.kaggle.com/competitions/benchmark-tabular-ml" target="_blank">Kaggle Competition</a>)
+## Problem statement 
+From the <a href="https://www.kaggle.com/competitions/benchmark-tabular-ml" target="_blank">Kaggle Competition</a>
 
 #### Build a reliable and interpretable model for Tabular Datasets
 With this project, your aim is to understand and build models for (subsets of) three real world tabular ML datasets: 
