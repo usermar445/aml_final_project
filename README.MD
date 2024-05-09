@@ -8,7 +8,7 @@ Authors: Kyra Dresen, Antara Chakrabarty, Martin Arnold
 ## Table of contents
 
 - [Repository structure](#repository-structure)
-- [Problem statement](#problem-statement-)
+- [Problem statement](#problem-statement)
 - [Data](#data)
 
 ## Repository structure
