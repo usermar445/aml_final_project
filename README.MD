@@ -15,11 +15,14 @@ Authors: Kyra Dresen, Antara Chakrabarty, Martin Arnold
 
 - `./EDA` contains the Explanatory Data Analysis script
 - `./data` contains the data
-- `./submissions` contains the predictions submitted to the Kaggle competition
+- `./predictions` contains the predictions submitted to the Kaggle competition
 - `./scripts` contains the scripts used to get the predictions
 - `./misc` contains the poster and other stuff for the repository
 
+All scripts are Jupyter Notebooks, preferrably run in Goolge Colab.
+
 ## Problem statement 
+
 From the <a href="https://www.kaggle.com/competitions/benchmark-tabular-ml" target="_blank">Kaggle Competition</a>
 
 #### Build a reliable and interpretable model for Tabular Datasets
