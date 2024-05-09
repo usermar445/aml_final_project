@@ -7,11 +7,10 @@ Authors: Kyra Dresen, Antara Chakrabarty, Martin Arnold
 
 ## Table of contents
 
-- [Repository structure](#repo)
-- [Problem statement](#problem)
+- [Repository structure](#repository-structure)
+- [Problem statement](#problem-statement-from-the-a-hrefhttpswwwkagglecomcompetitionsbenchmark-tabular-ml-target_blankkaggle-competitiona)
 - [Data](#data)
 
-<a name="repo/"></a>
 ## Repository structure
 
 - `./EDA` contains the Explanatory Data Analysis script
@@ -20,7 +19,6 @@ Authors: Kyra Dresen, Antara Chakrabarty, Martin Arnold
 - `./scripts` contains the scripts used to get the predictions
 - `./misc` contains the poster and other stuff for the repository
 
-<a name="problem/"></a>
 ## Problem statement (from the <a href="https://www.kaggle.com/competitions/benchmark-tabular-ml" target="_blank">Kaggle Competition</a>)
 
 #### Build a reliable and interpretable model for Tabular Datasets
@@ -42,7 +40,6 @@ end-to-end where you can select the direction for this optimization yourself, e.
 such as hyperparam optimization, regularization, etc. You are also encouraged to evaluate more recent and novel 
 approaches using deep learning or synthetic data-augmentation (look at TapTap) wherever you see fit.
 
-<a name="data/"></a>
 ## Data
 #### CoverType: Forest Cover Type Prediction
 In this dataset, you are asked to predict the forest cover type (the predominant kind of tree cover) from strictly 
