@@ -2,3 +2,4 @@
 scripts/.ipynb_checkpoints/
 scripts/mlruns/
 .idea
+.ipynb_checkpoints
